@@ -1,0 +1,108 @@
+/* Images created by: https://unsplash.com/@pawel_czerwinski */
+
+html {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100vh;
+  background: #c9ced3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+.container {
+  height: 500px;
+  width: 400px;
+  border-radius: 20px;
+  background: #e7e6e6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  -webkit-box-shadow: 0px 0px 43px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 43px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 43px -8px rgba(0, 0, 0, 0.75);
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  position: relative;
+  top: -80px;
+  -webkit-box-shadow: 0px 0px 43px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 43px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 43px -8px rgba(0, 0, 0, 0.75);
+}
+
+.songInfo {
+  position: relative;
+  top: -30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.songTitle {
+  font-family: "Spartan", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+}
+.artist {
+  font-family: "Spartan", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.progressArea {
+  width: 360px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  height: 2px;
+  background-color: white;
+}
+.songTimer {
+  position: relative;
+  top: -15px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Spartan", sans-serif;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.progressBar {
+  position: relative;
+  top: -20px;
+  height: 100%;
+  width: 0%;
+  background-color: grey;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fas {
+  margin-right: 30px;
+  color: #808080;
+  cursor: pointer;
+  font-size: 40px;
+}
+.fas:hover {
+  color: #696969;
+}
+.fa-play {
+}
+.fa-backward,
+.fa-forward {
+  font-size: 30px;
+}
+.fa-forward {
+  margin-right: 0px;
+}
